@@ -4,9 +4,9 @@ from web_dl import urlDownloader
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-API_ID = os.environ.get("API_ID")
-API_HASH = os.environ.get("API_HASH")
+BOT_TOKEN = os.environ.get("7361470544:AAEitqyfPIq2BFP33Hq38D6J3MxYxV40Q2I")
+API_ID = os.environ.get("21604478")
+API_HASH = os.environ.get("691ed9176d80b30e70d9a7c973ff09d8")
 
 Bot = Client(
     "WebDL-Bot",
